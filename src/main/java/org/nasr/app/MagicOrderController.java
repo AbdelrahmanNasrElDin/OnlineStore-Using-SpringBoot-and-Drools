@@ -1,4 +1,4 @@
-package com.example.demo;
+package org.nasr.app;
 
 import org.kie.api.runtime.KieSession;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.example.demo;
+package org.nasr.app;
 
 import org.kie.api.KieServices;
 import org.kie.api.builder.*;
