@@ -1,26 +1,44 @@
 package KieRule;
 import  org.nasr.app.Order;
 
-rule "HDFC"
+rule "Medical"
 
 when
-orderObject : Order(cardType=="HDFC" && price>10000);
+orderObject : Order(productType=="medical" );
 then
-orderObject.setDiscount(10);
+orderObject.setDiscount(0.10);
+orderObject.setTax(0);
+orderObject.totalPrice();
 end;
 
-rule "ICICI"
+
+rule "groceries"
 
 when
-orderObject : Order(cardType=="ICICI" && price>15000);
+orderObject : Order(productType=="groceries");
 then
-orderObject.setDiscount(8);
+orderObject.setDiscount(0.5);
+orderObject.setTax(0.14);
+orderObject.totalPrice();
 end;
 
-rule "DBS"
+
+rule "luxury goods"
 
 when
-orderObject : Order(cardType=="DBS" && price>15000);
+orderObject : Order(productType=="luxury goods");
 then
-orderObject.setDiscount(15);
+orderObject.setDiscount(0);
+orderObject.setTax(0.14);
+orderObject.totalPrice();
+end;
+
+rule "mobile"
+
+when
+orderObject : Order( name=="mobile");
+then
+orderObject.setDiscount(0);
+orderObject.setTax(0.14);
+orderObject.totalPrice();
 end;
