@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.kie.soup:kie-soup-commons:7.36.0.20200331">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/kie/soup/kie-soup-commons/7.36.0.20200331/kie-soup-commons-7.36.0.20200331.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/kie/soup/kie-soup-commons/7.36.0.20200331/kie-soup-commons-7.36.0.20200331-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/kie/soup/kie-soup-commons/7.36.0.20200331/kie-soup-commons-7.36.0.20200331-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
